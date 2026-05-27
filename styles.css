@@ -190,11 +190,12 @@ ul {
   color: var(--color-primary);
 }
 
-.logo-mark {
-  width: 32px;
-  height: 32px;
-  border-radius: var(--radius-sm);
-  background: linear-gradient(135deg, var(--color-primary), var(--color-accent));
+.logo-img {
+  height: 2.5rem;
+  width: auto;
+  max-width: min(200px, 42vw);
+  object-fit: contain;
+  display: block;
 }
 
 .nav {
