@@ -564,7 +564,10 @@ ul {
 .abdm-header {
   position: relative;
   max-width: 720px;
-  margin-bottom: 2.5rem;
+}
+
+.abdm-content {
+  margin-top: 0.5rem;
 }
 
 .abdm-badge {
@@ -599,7 +602,7 @@ ul {
 }
 
 .abdm-capability-list {
-  margin-top: 1rem;
+  margin: 1.25rem 0;
   list-style: none;
 }
 
