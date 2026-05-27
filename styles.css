@@ -184,18 +184,20 @@ ul {
 .logo {
   display: flex;
   align-items: center;
-  gap: 0.625rem;
+  gap: 0.5rem;
   font-weight: 700;
   font-size: 1.0625rem;
   color: var(--color-primary);
+  line-height: 1;
 }
 
 .logo-img {
-  height: 2.5rem;
+  height: 2.25rem;
   width: auto;
-  max-width: min(200px, 42vw);
+  max-width: min(152px, 46vw);
   object-fit: contain;
   display: block;
+  flex-shrink: 0;
 }
 
 .nav {
