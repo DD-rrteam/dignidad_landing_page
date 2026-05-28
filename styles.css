@@ -368,15 +368,7 @@ ul {
 .hero-card-header .dot:nth-child(3) { background: #22c55e; }
 
 .hero-card-body {
-  padding: 0;
-}
-
-.hero-screenshot {
-  width: 100%;
-  height: auto;
-  aspect-ratio: 16 / 10;
-  object-fit: cover;
-  background: var(--color-grey-50);
+  padding: 1.5rem 1.75rem 1.75rem;
 }
 
 .stat-row {
