@@ -192,11 +192,12 @@ ul {
 }
 
 .logo-img {
-  height: 2.25rem;
+  height: clamp(2.9rem, 2.6vw, 3.25rem);
   width: auto;
-  max-width: min(152px, 46vw);
+  max-width: clamp(210px, 22vw, 280px);
   object-fit: contain;
   display: block;
+  padding: 2px 0;
   flex-shrink: 0;
 }
 
